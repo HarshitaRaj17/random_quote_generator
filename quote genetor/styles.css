@@ -1,0 +1,87 @@
+body {
+
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+}
+.Topic{
+  position:absolute;
+  top:100px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  font-size:50px;
+}
+.Topicallquotes{
+    position:absolute;
+    top:100px;
+    left:200px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    font-size:50px;
+  }
+img{
+  width:10%;
+}
+.desc{
+  font-family: 'Urbanist', sans-serif;
+  margin-bottom:50px;
+  margin-top:70px;
+}
+.containerx {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+
+  width: 40%;
+}
+
+#quote-box {
+  text-align: center;
+
+}
+
+#quote {
+  font-size: 18px;
+  font-weight:bold;
+  margin-bottom: 20px;
+}
+
+#generate-btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.allquotepara{
+  position:absolute;
+  top:200px;
+  left:200px;
+  font-size:20px;
+  line-height:3;
+}
+.quotesimg{
+  width:30%;
+  position:absolute;
+  top:200px;
+  right:230px;
+}
+#Aboutbox{
+  width:50%;
+  position:absolute;
+  top:200px;
+  left:200px;
+
+}
+.meimg{
+  width:90%;
+  position:absolute;
+  top:0px;
+  left:635px;
+}
